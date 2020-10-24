@@ -135,12 +135,12 @@ static struct key bindings[] = {
 	{ '\r',           SEL_OPEN },
 	/* Pure navigate inside */
 	{ KEY_RIGHT,      SEL_NAV_IN },
-	{ 'l',            SEL_NAV_IN },
+	{ 'i',            SEL_NAV_IN },
 	/* Next */
-	{ 'j',            SEL_NEXT },
+	{ 'n',            SEL_NEXT },
 	{ KEY_DOWN,       SEL_NEXT },
 	/* Previous */
-	{ 'k',            SEL_PREV },
+	{ 'e',            SEL_PREV },
 	{ KEY_UP,         SEL_PREV },
 	/* Page down */
 	{ KEY_NPAGE,      SEL_PGDN },
@@ -236,7 +236,7 @@ static struct key bindings[] = {
 	{ 'o',            SEL_OPENWITH },
 	{ CONTROL('O'),   SEL_OPENWITH },
 	/* Create a new file */
-	{ 'n',            SEL_NEW },
+	{ 'N',            SEL_NEW },
 	/* Show rename prompt */
 	{ CONTROL('R'),   SEL_RENAME },
 	/* Rename contents of current dir */
@@ -248,7 +248,7 @@ static struct key bindings[] = {
 	/* Quit a context */
 	{ '+',            SEL_AUTONEXT },
 	/* Edit in EDITOR */
-	{ 'e',            SEL_EDIT },
+	{ 'k',            SEL_EDIT },
 	/* Run a plugin */
 	{ ';',            SEL_PLUGIN },
 	/* Run command */
